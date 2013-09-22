@@ -1,0 +1,12 @@
+// This renders the top bar that is common for all logged in pages
+div.navbar.navbar-fixed-top
+	div.navbar-inner
+		div.container-fluid
+			ul#global-nav.nav.pull-left
+				a(href='#').brand Garden
+				ul.nav
+					li.divider-vertical
+					li: a(href="/account-settings") Account Settings
+			button#btn-logout.btn.btn-primary
+				i.icon-lock.icon-white
+				| Sign Out
